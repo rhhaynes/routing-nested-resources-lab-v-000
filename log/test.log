@@ -238,6 +238,7 @@ Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.4ms)
   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
 Processing by SongsController#index as HTML
   Parameters: {"artist_id"=>"abc"}
+<<<<<<< HEAD
   [1m[35mArtist Load (0.2ms)[0m  SELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT 1  [["id", 0]]
 Redirected to http://test.host/artists
 Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
@@ -826,3 +827,5 @@ Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.2ms)
   [1m[35mSong Load (0.1ms)[0m  SELECT  "songs".* FROM "songs"  ORDER BY "songs"."id" ASC LIMIT 1
   Rendered songs/show.html.erb (1.5ms)
   [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 668fd713b9a5c23b04305f70260eea3a4f67de6c
